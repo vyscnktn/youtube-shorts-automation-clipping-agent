@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+cookies.txt
+
+# Generated media / pipeline artifacts
+storage/downloads/*
+storage/temp/*
+storage/outputs/*
+!storage/downloads/.gitkeep
+!storage/temp/.gitkeep
+!storage/outputs/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
