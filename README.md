@@ -94,6 +94,9 @@ streamlit run app.py
 
 Open the local URL Streamlit prints. Two tabs are available:
 
+<img width="1864" height="964" alt="image" src="https://github.com/user-attachments/assets/2941e130-4907-4e68-8d97-4917fb9551e3" />
+
+
 - **New video** — paste a YouTube URL and click "Process Video" to run the full
   pipeline (download → transcribe → select clips → render).
 - **Downloaded videos** — pick a video that's already been downloaded (from a
