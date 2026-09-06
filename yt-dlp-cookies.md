@@ -1,18 +1,21 @@
-# Chrome için
-yt-dlp --cookies-from-browser chrome "VIDEO_LINKI"
+# For Chrome
+yt-dlp --cookies-from-browser chrome "VIDEO_LINK"
 
-# Firefox için
-yt-dlp --cookies-from-browser firefox "VIDEO_LINKI"
+# For Firefox
+yt-dlp --cookies-from-browser firefox "VIDEO_LINK"
 
-# Brave için
-yt-dlp --cookies-from-browser brave "VIDEO_LINKI"
+# For Brave
+yt-dlp --cookies-from-browser brave "VIDEO_LINK"
 
-
-yt-dlp --cookies cookies.txt "VIDEO_LINKI"
-
-
+# Download Cookies
+yt-dlp --cookies cookies.txt "VIDEO_LINK"
 
 
+
+# Basic Python Script
+
+
+'''script'''
 import yt_dlp
 
 ydl_opts = {
@@ -27,3 +30,5 @@ ydl_opts = {
 
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download(['https://www.youtube.com/watch?v=...'])
+
+'''script'''
