@@ -15,7 +15,7 @@ yt-dlp --cookies cookies.txt "VIDEO_LINK"
 # Basic Python Script
 
 
-'''script'''
+'''python
 import yt_dlp
 
 ydl_opts = {
@@ -31,4 +31,4 @@ ydl_opts = {
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download(['https://www.youtube.com/watch?v=...'])
 
-'''script'''
+'''
