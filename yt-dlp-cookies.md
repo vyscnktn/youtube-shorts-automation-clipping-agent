@@ -20,10 +20,10 @@ yt-dlp --cookies cookies.txt "VIDEO_LINK"
 import yt_dlp
 
 ydl_opts = {
-    # Tarayıcıdan doğrudan çekmek için:
+    # to pull from browser:
     'cookiesfrombrowser': ('chrome', ),
     
-    # VEYA dosya kullanmak için:
+    # to use as a file:
     # 'cookiefile': 'cookies.txt',
     
     'format': 'best',
